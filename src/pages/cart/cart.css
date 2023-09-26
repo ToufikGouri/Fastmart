@@ -1,0 +1,34 @@
+.allButtons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-image {
+    height: 250px;
+    width: 250px;
+}
+
+.cartCard {
+    box-shadow: 2px 2px 10px black;
+    transition: transform 0.2s ease;
+}
+
+.cartCard:hover {
+    box-shadow: 3px 3px 20px black;
+    transform: translate(0px, -5px);
+}
+
+.cart-title {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cart-title:hover {
+    text-decoration: underline;
+}
+
+.payment-items {
+    color: green;
+    /* https://mir-s3-cdn-cf.behance.net/projects/404/95974e121862329.Y3JvcCw5MjIsNzIxLDAsMTM5.png */
+}

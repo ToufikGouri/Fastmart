@@ -1,0 +1,15 @@
+.carousel-img {
+    height: 400px;
+    width: 400px ;
+    /* object-fit: cover;   */
+    border: 2px solid black;
+}
+
+.ImgAndContent{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-card{
+    border: none;
+}

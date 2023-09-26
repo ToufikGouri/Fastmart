@@ -1,0 +1,47 @@
+.cardCounterNot {
+    visibility: hidden;
+}
+
+.cartWithCounter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -17px 7px;
+    margin-left: 10px;
+    min-height: 26px;
+}
+
+.cart-icon {
+    margin: -9px;
+}
+
+.animatingCounterClass {
+    position: relative;
+    animation: counterAnimation 0.2s ease-in-out 0s 1 backwards;
+    /* animation: animation-name  animation-duration  animation-timing-function  animation-delay  animation-iteration-count  animation-fill-mode; */
+}
+
+@keyframes counterAnimation {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+
+    50% {
+        top: -3px;
+        left: 0px;
+    }
+
+    100% {
+        top: 0px;
+        left: 0px;
+    }
+}
+
+.FastmartLogo {
+    height: 120px;
+    margin: -54px -35px;
+    margin-top: -30px; 
+}
+
+/* height: 130px; */

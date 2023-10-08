@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# Fastmart - An online shopping platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a practice project focusing on <b>React.</b>
+
+## Technology used:
+### `HTML` `CSS` `JS` `BOOTSTRAP` `REACT`
+
+Explore the project for more
 
 ## Available Scripts
 

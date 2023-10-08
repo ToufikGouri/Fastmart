@@ -1,15 +1,42 @@
 .carousel-img {
-    height: 400px;
-    width: 400px ;
-    /* object-fit: cover;   */
-    border: 2px solid black;
+    height: 250px;
+    width: 250px;
 }
 
-.ImgAndContent{
+.cardCarousel {
+    border: none;
+    margin: 20px auto !important;
+    box-shadow: 3px 3px 10px black
+}
+/* #cardContind::before {
+    content: "";
+    position: absolute;
+    background: url('Bimages/homebg.png') no-repeat center center/cover;
+    height: 1400px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+  } */
+.carousel-item {
+    /* margin: 0 20px; 
+    Do this in media query*/
+}
+
+.ImgAndContent {
     display: flex;
     justify-content: center;
 }
 
-.carousel-card{
+.carousel-card {
     border: none;
+}
+
+.carouselTitle {
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.carouselTitle:hover {
+    text-decoration: underline;
 }

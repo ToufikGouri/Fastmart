@@ -3,9 +3,27 @@
     justify-content: center;
     /* border: 2px solid red; */
     margin-top: 65px;
-    width: 400px;
+    width: 380px;
     align-items: center;
     font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .cardMain-container {
+        width: 180px;
+        font-size: 16px;
+    }
+
+    .cardMain-image {
+        height: 150px !important;
+        width: 150px !important;
+    }
+
+    .addedToCart {
+        margin-left: 0px !important;
+
+    }
+
 }
 
 .cardMain-image {

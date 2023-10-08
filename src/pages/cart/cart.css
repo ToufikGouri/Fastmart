@@ -9,7 +9,7 @@
 }
 
 .cartCard {
-    box-shadow: 2px 2px 10px black;
+    /* box-shadow: 2px 2px 10px black; */
     transition: transform 0.2s ease;
 }
 
@@ -31,4 +31,22 @@
 .payment-items {
     color: green;
     /* https://mir-s3-cdn-cf.behance.net/projects/404/95974e121862329.Y3JvcCw5MjIsNzIxLDAsMTM5.png */
+}
+
+@media (min-width: 992px) {
+    .cartCard{
+        min-width: 900px;
+    }
+}
+@media ((min-width: 768px) and (max-width: 992px)) {
+    .cartCard{
+        min-width: 700px;
+    }
+}
+@media (max-width: 768px){
+    .cartCard{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

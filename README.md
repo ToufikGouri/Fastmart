@@ -2,8 +2,8 @@
 
 This is a practice project focusing on <b>React.</b>
 
-## Technology used:
-### `HTML` `CSS` `JS` `BOOTSTRAP` `REACT`
+## Technology used
+### `Html` `Css` `Js` `Bootstrap` `React`
 
 Explore the project for more
 

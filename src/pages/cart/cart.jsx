@@ -34,7 +34,7 @@ const Cart = () => {
                     <div className="col-md-8">
                       <div className="card-body">
                         <Link to={`/product/${item.product.id}`} className="card-title cart-title">{item.product.title}</Link>
-                        <p style={{ fontSize: "20px" }}>Price: <b> ${round(item.product.price * item.quantity, 2)} </b></p>
+                        <p style={{ fontSize: "20px" }}>Price: <b className='text-success'> ${round(item.product.price * item.quantity, 2)} </b></p>
                         <div className="allButtons">
                           <div className="d-flex extra-containerX">
 
